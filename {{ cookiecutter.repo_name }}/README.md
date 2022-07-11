@@ -29,9 +29,8 @@ Organización del proyecto
     │   ├── features       
     │   │   └── vectorize.py <- Script con el proceso de creación de caracteristicas y consolidación entrada del modelo.
     │   │
-    │   ├── models         
-    │   │   ├── predict_model.py  <- Script con proceso para crear predicciones desde el mejor modelo.
-    │   │   └── train_model.py    <- Script con el proceso de entrenamiento del mejor modelo.
+    │   ├── models           <- Consolidación de datos los archivos .py con las predicciones del o de los modelos.
+    │   │   └── predict_model.py  <- Script con proceso para crear predicciones desde el mejor modelo.
     |
     ├── pipeline.py        <- Archivo con que consolida la ejecución del modelo. Ejecutando el proceso de modelación de principio
     |                         proceso de modelación de principio a fin.
